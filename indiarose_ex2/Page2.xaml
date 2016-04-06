@@ -9,6 +9,6 @@
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
         <Image Source="Assets/moon.jpg" MaxHeight="200"></Image>
         <TextBlock Text="You are on the moon" HorizontalAlignment="Center"></TextBlock>
-        <HyperlinkButton Content="Let's back to the sky" Click="ButtonBase_OnClick" HorizontalAlignment="Center"></HyperlinkButton>
+        <Button Content="Let's back to the sky" Click="ButtonBase_OnClick" HorizontalAlignment="Center"></Button>
     </StackPanel>
 </Page>

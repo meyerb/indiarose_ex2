@@ -9,6 +9,6 @@
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
         <Image Source="Assets/ciel.bmp" MaxHeight="200" HorizontalAlignment="Center"></Image>
         <TextBlock Text="You are in the sky" HorizontalAlignment="Center"></TextBlock>
-        <HyperlinkButton Content="Let's see the moon" Click="ButtonBase_OnClick" HorizontalAlignment="Center"></HyperlinkButton>
+        <Button Content="Let's see the moon" Click="ButtonBase_OnClick" HorizontalAlignment="Center"></Button>
     </StackPanel>
 </Page>
