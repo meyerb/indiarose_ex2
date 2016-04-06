@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="indiarose_ex2.MainPage"
+    x:Class="indiarose_ex2.Page2"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:indiarose_ex2"
@@ -7,8 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-        <Image Source="Assets/ciel.bmp" MaxHeight="200" HorizontalAlignment="Center"></Image>
-        <TextBlock Text="You are in the sky" HorizontalAlignment="Center"></TextBlock>
-        <HyperlinkButton Content="Let's see the moon" Click="ButtonBase_OnClick" HorizontalAlignment="Center"></HyperlinkButton>
+        <Image Source="Assets/moon.jpg" MaxHeight="200"></Image>
+        <TextBlock Text="You are on the moon" HorizontalAlignment="Center"></TextBlock>
+        <HyperlinkButton Content="Let's back to the sky" Click="ButtonBase_OnClick" HorizontalAlignment="Center"></HyperlinkButton>
     </StackPanel>
 </Page>
